@@ -37,7 +37,7 @@ closeEl.addEventListener('click', navClose);
 
 AOS.init ({
     offset:100,
-    delay:50,
+    delay:100,
     duration:1000,
     easing: 'ease',
     once: false,
