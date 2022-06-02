@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu | Shaif's Cuisine</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/globalStyle.css">
+    <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/pages-style/menu.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<!-- nav section -->
+<div class="nav">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="Shaif's Cuisine">
+            </a>
+            <nav>
+                <div class="nav-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="nav-bgOverlay"></div>
+                <ul class="nav-list">
+                    <div class="nav-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="nav-list-wrapper">
+                        <li>
+                            <a href="./index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./menu.html" class="nav-link">
+                                Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="nav-link">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./booking.html" class="btn primary-btn">
+                                Book Table
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- end nav section -->
+<!-- ###################### -->
+<!-- page title  -->
+<section id="page-title">
+    <div class="container">
+        <h2 class="page-title-text">
+            Explore Our Menu
+        </h2>
+    </div>
+</section>
+<!-- end page title  -->
+<!-- our specials section  -->
+<section id="ourSpecials" 
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div class="container">
+        <h3 class="ourSpecials-title">
+            Our Specials
+        </h3>
+        <div class="ourSpecials-wrapper">
+            <div class="ourSpecials-item">
+                <div class="ourSpecials-item-img">
+                    <img src="./images/food-7.png" alt="food">
+                </div>
+                <div class="ourSpecials-item-info">
+                    <h3 class="ourSpecials-item-title">
+                        Hot Green Bowl
+                    </h3>
+                    <h4 class="ourSpecials-item-price">
+                        $12
+                    </h4>
+                    <div class="ourSpecials-item-stars">
+                        <img src="./images/3star.png" alt="star rating">
+                    </div>
+                </div>
+            </div>
+            <div class="ourSpecials-item">
+                <div class="ourSpecials-item-img">
+                    <img src="./images/food-2.png" alt="food">
+                </div>
+                <div class="ourSpecials-item-info">
+                    <h3 class="ourSpecials-item-title">
+                        Vegan Pesto Zoodles
+                    </h3>
+                    <h4 class="ourSpecials-item-price">
+                        $12
+                    </h4>
+                    <div class="ourSpecials-item-stars">
+                        <img src="./images/3star.png" alt="star rating">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end our specials section  -->
+    <!-- Top dishes -->
+    <section id="dishGrid" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <h2 class="dishGrid-title">
+                Top Dishes
+            </h2>
+            <div class="dishGrid-wrapper">
+                <div class="dishGrid-item">
+                    <div class="dishGrid-item-img">
+                        <img src="./images/food-1.png" alt="food img">
+                    </div>
+                    <div class="dishGrid-item-info">
+                        <h3 class="dishGrid-item-title">
+                            Vegan salad bowl
+                        </h3>
+                        <h3 class="dishGrid-item-price">
+                            $14
+                        </h3>
+                        <div class="dishGrid-item-stars">
+                            <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dishGrid-item">
+                    <div class="dishGrid-item-img">
+                        <img src="./images/food-2.png" alt="food img">
+                    </div>
+                    <div class="dishGrid-item-info">
+                        <h3 class="dishGrid-item-title">
+                            Vegan salad bowl
+                        </h3>
+                        <h3 class="dishGrid-item-price">
+                            $14
+                        </h3>
+                        <div class="dishGrid-item-stars">
+                            <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dishGrid-item">
+                    <div class="dishGrid-item-img">
+                        <img src="./images/food-3.png" alt="food img">
+                    </div>
+                    <div class="dishGrid-item-info">
+                        <h3 class="dishGrid-item-title">
+                            Vegan salad bowl
+                        </h3>
+                        <h3 class="dishGrid-item-price">
+                            $14
+                        </h3>
+                        <div class="dishGrid-item-stars">
+                            <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Top dishes -->
+        <!-- Breakfast -->
+        <section id="dishGrid" data-aos="fade-up" data-aos-duration="2000">
+            <div class="container">
+                <h2 class="dishGrid-title">
+                    Breakfast
+                </h2>
+                <div class="dishGrid-wrapper">
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-1.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-2.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-3.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-4.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Breakfast -->
+    <!-- Lunch -->
+            <section id="dishGrid" data-aos="fade-up" data-aos-duration="2000">
+                <div class="container">
+                    <h2 class="dishGrid-title">
+                        Lunch
+                    </h2>
+                    <div class="dishGrid-wrapper">
+                        <div class="dishGrid-item">
+                            <div class="dishGrid-item-img">
+                                <img src="./images/food-1.png" alt="food img">
+                            </div>
+                            <div class="dishGrid-item-info">
+                                <h3 class="dishGrid-item-title">
+                                    Vegan salad bowl
+                                </h3>
+                                <h3 class="dishGrid-item-price">
+                                    $14
+                                </h3>
+                                <div class="dishGrid-item-stars">
+                                    <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="dishGrid-item">
+                            <div class="dishGrid-item-img">
+                                <img src="./images/food-2.png" alt="food img">
+                            </div>
+                            <div class="dishGrid-item-info">
+                                <h3 class="dishGrid-item-title">
+                                    Vegan salad bowl
+                                </h3>
+                                <h3 class="dishGrid-item-price">
+                                    $14
+                                </h3>
+                                <div class="dishGrid-item-stars">
+                                    <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="dishGrid-item">
+                            <div class="dishGrid-item-img">
+                                <img src="./images/food-3.png" alt="food img">
+                            </div>
+                            <div class="dishGrid-item-info">
+                                <h3 class="dishGrid-item-title">
+                                    Vegan salad bowl
+                                </h3>
+                                <h3 class="dishGrid-item-price">
+                                    $14
+                                </h3>
+                                <div class="dishGrid-item-stars">
+                                    <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="dishGrid-item">
+                            <div class="dishGrid-item-img">
+                                <img src="./images/food-4.png" alt="food img">
+                            </div>
+                            <div class="dishGrid-item-info">
+                                <h3 class="dishGrid-item-title">
+                                    Vegan salad bowl
+                                </h3>
+                                <h3 class="dishGrid-item-price">
+                                    $14
+                                </h3>
+                                <div class="dishGrid-item-stars">
+                                    <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="dishGrid-item">
+                            <div class="dishGrid-item-img">
+                                <img src="./images/food-5.png" alt="food img">
+                            </div>
+                            <div class="dishGrid-item-info">
+                                <h3 class="dishGrid-item-title">
+                                    Vegan salad bowl
+                                </h3>
+                                <h3 class="dishGrid-item-price">
+                                    $14
+                                </h3>
+                                <div class="dishGrid-item-stars">
+                                    <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="dishGrid-item">
+                            <div class="dishGrid-item-img">
+                                <img src="./images/food-6.png" alt="food img">
+                            </div>
+                            <div class="dishGrid-item-info">
+                                <h3 class="dishGrid-item-title">
+                                    Vegan salad bowl
+                                </h3>
+                                <h3 class="dishGrid-item-price">
+                                    $14
+                                </h3>
+                                <div class="dishGrid-item-stars">
+                                    <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- end Lunch -->
+        <!-- Dinner -->
+        <section id="dishGrid" data-aos="fade-up" data-aos-duration="2000">
+            <div class="container">
+                <h2 class="dishGrid-title">
+                    Dinner
+                </h2>
+                <div class="dishGrid-wrapper">
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-1.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-2.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-3.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-4.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="dishGrid-item">
+                        <div class="dishGrid-item-img">
+                            <img src="./images/food-5.png" alt="food img">
+                        </div>
+                        <div class="dishGrid-item-info">
+                            <h3 class="dishGrid-item-title">
+                                Vegan salad bowl
+                            </h3>
+                            <h3 class="dishGrid-item-price">
+                                $14
+                            </h3>
+                            <div class="dishGrid-item-stars">
+                                <img src="./images/3star.png" alt=" 3 Stars" srcset="">
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- end Dinner -->
+<!-- ###################### -->
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-col1">
+                <div class="footer-logo">
+                    <img src="./images/logo.svg" alt="Shaif's Cuisine srcset="">
+                </div>
+                <p class="footer-dessc">
+                    Fresh and delicious traditional Bangladeshi food to delight the whole family.
+                </p>
+                <div class="footer-socials">
+                    <h4 class="footer-socials-title">
+                        <ol>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ol>
+                    </h4>
+                </div>
+            </div>
+            <div class="footer-col2">
+                <h3 class="footer-text-title">
+                    Links
+                </h3>
+                <ol class="footer-text">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="./booking.html">Book Table</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="footer-col3">
+                <h3 class="footer-text-title">
+                    Support
+                </h3>
+                <ol class="footer-text">
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="footer-col4">
+                <h3 class="footer-text-title">
+                    Contact
+                </h3>
+                <ol class="footer-text">
+                    <li>
+                        <a href="tel:+880123">880123</a>
+                    </li>
+                    <li>
+                        <a href="#">web@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Alexandria, Egypt
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+    <!-- AOS Script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- Font Awesome library -->
+<script src="https://kit.fontawesome.com/1700dacc06.js" crossorigin="anonymous"></script>
+<!-- our script -->
+<script src="./main.js"></script>
+</body>
+</html>
