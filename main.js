@@ -25,12 +25,13 @@ const navClose = () => {
     `
 }
 
-window.onload = navClose();
+
 
 iconEl.addEventListener('click', navOpen);
 
 closeEl.addEventListener('click', navClose);
 
+window.onload = navClose();
 
 // AOS init 
 
