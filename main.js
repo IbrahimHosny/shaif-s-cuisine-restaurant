@@ -25,9 +25,7 @@ const navClose = () => {
     `
 }
 
-window.onload = () => {
-    listEl.classList.remove('show')
-}
+window.onload = navClose();
 
 iconEl.addEventListener('click', navOpen);
 
