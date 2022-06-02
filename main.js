@@ -33,10 +33,12 @@ closeEl.addEventListener('click', navClose);
 
 window.onload = navClose();
 
+
+
 // AOS init 
 
 AOS.init ({
-    offset:90,
+    offset:300,
     delay:70,
     duration:300,
     easing: 'ease',
