@@ -15,7 +15,7 @@ html {
 }
 body {
     background-color: var(--lightGreen-2);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 section {
     padding: 100px 0px;

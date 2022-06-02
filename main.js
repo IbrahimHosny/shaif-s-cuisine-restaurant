@@ -31,18 +31,17 @@ iconEl.addEventListener('click', navOpen);
 
 closeEl.addEventListener('click', navClose);
 
-window.onload = navClose();
-
 
 
 // AOS init 
 
 AOS.init ({
-    offset:300,
-    delay:70,
-    duration:300,
+    offset:100,
+    delay:50,
+    duration:1000,
     easing: 'ease',
     once: false,
     mirror: false,
     anchorPlacement: 'top-bottom'
-})
+});
+
